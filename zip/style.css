@@ -15,7 +15,7 @@ body {
   font-family: "happy monkey", cursive;
 }
 .hero-header {
-  background: url("zip/hero-img.jpg") no-repeat center / cover;
+  background: url("hero-img.jpg") no-repeat center / cover;
   height: 400px;
   color: rgb(212, 249, 250);
   text-align: center;
