@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Happy+Monkey&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(lightblue, white);
+  font-family: "happy monkey", cursive;
+}
+.hero-header {
+  background: url("hero-img.jpg") no-repeat center / cover;
+  height: 400px;
+  color: rgb(212, 249, 250);
+  text-align: center;
+  padding: 100px;
+}
+.hero-header p {
+  background: darkblue;
+}
+.hero-header p,
+.hero-header h1 {
+  margin-inline: auto;
+  width: 400px;
+  text-shadow: 3px 3px 2px black;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+.hero-header h1 {
+  font-size: 50px;
+  font-weight: bold;
+
+  background: rgb(114, 114, 245);
+}
+.hero-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+.hero-article img {
+  width: 200px;
+  border-radius: 50%;
+}
+.hero-article p {
+  width: 30ch;
+  text-align: center;
+}
+
+.hero-contain {
+  background: lightgray;
+}
+.hero-title {
+  text-shadow: 1px 1px 1px white;
+  font-weight: bold;
+}
+
+.hero-contain h2 {
+  text-align: center;
+  margin: 30px 0;
+  text-shadow: 1px 1px 1px white;
+  font-weight: bold;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+
+  padding-bottom: 30px;
+}
+
+.presentation {
+  width: 750px;
+  margin: 60px auto;
+
+  border-radius: 10px;
+  border-bottom: 4px solid purple;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+  background: lightblue;
+}
+.presentation img {
+  width: 300px;
+}
+.presentation-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
